@@ -6,7 +6,7 @@ Welcome to **CS 159**! In this class, we aim to teach you the basics of the C pr
 
 ## My take on the class
 
-As a Junior in computer engineering, this was probably one of the most important classes I took to get me to where I am. Before college I had *never* coded before. Now I can code in `C`, `C++`, `Matlab`, `Java`, and `Swift` (the coding language for iPhones), and can pretty easily pick up languages I've never had much experience in. While this class is not perfect in many ways, I belive it is a necessary stepping stone in helping students in their coding careers. I know that coding is not everyone's cup of tea, but I hope to help make your experience as easy as possible in this class!
+As a senior in computer engineering, this was a foundational class to get me where I am today. Before college I'd *never* coded before. Now, I can code in many different languages like `C/C++`, `Java`, and `Python`. I can also learn new programming languages pretty quickly now. While this class is not perfect in many ways, I belive it is a necessary stepping stone in helping students in their coding careers. I know that coding is not everyone's cup of tea, but I hope to help make your experience as easy as possible in this class!
 
 ## Common Complaints
 
@@ -34,15 +34,15 @@ A `command line` is a tool that you can use to `textually` navigate your compute
 
 `Graphical` navigation is primarily how you interact with your computer and your phone nowadays. You **click** on graphical objects (like an icon or the windows home button) and the computer will take different actions based on the `graphic` you **clicked**. Here I am graphically moving an example file from my Dektop to another file on my Desktop.
 
-![](https://raw.githubusercontent.com/jamesjweber/CS159_Spring2018/master/ImageResources/graphicalNavigation.png)
+![](https://github.com/jamesjweber/CS159_Spring2018/blob/master/ImageResources/graphicalNavigation.png?raw=true)
 
 So, `textual` navigation is simply navigating you computer *using only your keyboard* instead of with a mouse. You give the computer `commands` in the `command line`, and it will complete an action based on those `commands`
 
-![](https://raw.githubusercontent.com/jamesjweber/CS159_Spring2018/master/ImageResources/textualNavigation.png)
+![](https://github.com/jamesjweber/CS159_Spring2018/blob/master/ImageResources/textualNavigation.png?raw=true)
 
 Note that we get the same result either way: 
 
-![](https://raw.githubusercontent.com/jamesjweber/CS159_Spring2018/master/ImageResources/resultNavigation.png)
+![](https://github.com/jamesjweber/CS159_Spring2018/blob/master/ImageResources/resultNavigation.png?raw=true)
 
 The file has been moved to the folder. Now obviously it's a lot more *confusing* to use commands, which is why all computers and phones have `GUI's (Graphical User Interfaces)` now.
 
@@ -66,23 +66,23 @@ From the `Start` button select `All Programs -> Standard Software -> Telecommuni
 
 It should look something like this:
 
-![](https://raw.githubusercontent.com/jamesjweber/CS159_Spring2018/master/ImageResources/puttyLaunchScreen.png)
+![](https://github.com/jamesjweber/CS159_Spring2018/blob/master/ImageResources/puttyLaunchScreen.png?raw=true)
 
 ### Configure and Save Your Session
 
 #### What's a Session?
 
-A `session` is simply a configuration to a certain server. For this class we connect to `ITAP's guru server`. This makes it easier for us so we don't have to type a complicated server name in every time
+A `session` is simply a configuration to connect to a certain server. For this class we connect to `ITAP's guru server`. This makes it easier for us so we don't have to type a complicated server name in every time.
 
 #### The Setup
 
 1. Under **Host Name (or IP address)** enter: `guru.itap.purdue.edu`
 
-2. Select a name for your **Saved Session**, usually we just call it `guru`
+2. Type a name for your **Saved Session**, usually we just call it `guru`
 
 3. Press the `save` button so that you can easily load this session in the future.
 
-![](https://raw.githubusercontent.com/jamesjweber/CS159_Spring2018/master/ImageResources/puttyGuruSetup.png)
+![](https://github.com/jamesjweber/CS159_Spring2018/blob/master/ImageResources/puttyGuruSetup.png?raw=true)
 
 ### Apperance
 
@@ -92,15 +92,15 @@ This just changes how your `terminal` (`command line`) will look. You will want 
 
 On the side menu, navigate to `Appearance`, which is right under `Window`. Click `Change...` and set the font size between `14`-`18`. This will make the code larger, and make your eyes less strained as you code.
 
-![](https://raw.githubusercontent.com/jamesjweber/CS159_Spring2018/master/ImageResources/puttyTextSize1.png)
+![](https://github.com/jamesjweber/CS159_Spring2018/blob/master/ImageResources/puttyTextSize1.png?raw=true)
 
-![](https://raw.githubusercontent.com/jamesjweber/CS159_Spring2018/master/ImageResources/puttyTextSize2.png)
+![](https://github.com/jamesjweber/CS159_Spring2018/blob/master/ImageResources/puttyTextSize2.png?raw=true)
 
 #### Colors
 
 Select `Colours` (under `Window`) from the side menu. Then select the `Use system colours` checkbox. This will automatically color parts of your code. This just makes it visually easier to sift through your code.
 
-![](https://raw.githubusercontent.com/jamesjweber/CS159_Spring2018/master/ImageResources/puttyColors.png)
+![](https://github.com/jamesjweber/CS159_Spring2018/blob/master/ImageResources/puttyColors.png?raw=true)
 
 ### Saving Your Session
 
@@ -114,7 +114,7 @@ Ok, so now that you've got all your settings configured, simply press `Open` to 
 
 You may get a warning like this: 
 
-![](https://raw.githubusercontent.com/jamesjweber/CS159_Spring2018/master/ImageResources/loginWarning.png)
+![](https://github.com/jamesjweber/CS159_Spring2018/blob/master/ImageResources/loginWarning.png?raw=true)
 
 Don't worry about it, just press `Yes` to continue.
 
@@ -122,7 +122,7 @@ Don't worry about it, just press `Yes` to continue.
 
 Now, you should be at a screen that looks like this:
 
-![](https://raw.githubusercontent.com/jamesjweber/CS159_Spring2018/master/ImageResources/login.png)
+![](https://github.com/jamesjweber/CS159_Spring2018/blob/master/ImageResources/login.png?raw=true)
 
 Input your `Purdue username` for the `login as: ` prompt. Then it will ask you for your `password`. Just type in your `Purdue password` and press `enter`. 
 
@@ -130,7 +130,7 @@ Input your `Purdue username` for the `login as: ` prompt. Then it will ask you f
 
 So once you login, you should be brought to a screen that looks like this:
 
-![](https://raw.githubusercontent.com/jamesjweber/CS159_Spring2018/master/ImageResources/loginInitialPrompt.png)
+![](https://github.com/jamesjweber/CS159_Spring2018/blob/master/ImageResources/loginInitialPrompt.png?raw=true)
 
 Don't worry if it says something about a `VPN`. You are now in the `terminal` and the `█` charachter is where you can enter `commands`.
 
@@ -138,7 +138,7 @@ Don't worry if it says something about a `VPN`. You are now in the `terminal` an
 
 Now that you've successfully connected, we can setup your account using the following command (just copy and paste it, right click in putty to paste): `~cs159/student/setup`
 
-![](https://raw.githubusercontent.com/jamesjweber/CS159_Spring2018/master/ImageResources/loginSetupCommand.jpg)
+![](https://github.com/jamesjweber/CS159_Spring2018/blob/master/ImageResources/loginSetupCommand.jpg?raw=true)
 
 This will setup your account so that you can use the "tools of the course" this semester including **the ability to submit your programming assignments**.
 
@@ -152,7 +152,7 @@ This will setup your account so that you can use the "tools of the course" this 
 
 Once you run it, it should give you this message: 
 
-![](https://raw.githubusercontent.com/jamesjweber/CS159_Spring2018/master/ImageResources/setupCommandFinished.png)
+![](https://github.com/jamesjweber/CS159_Spring2018/blob/master/ImageResources/setupCommandFinished.png?raw=true)
 
 ### What the heck did that command do?
 
@@ -164,9 +164,9 @@ Once you run it, it should give you this message:
 
 Either type `logout` and press enter, or just close `PuTTY` to logout. Then open `PuTTY` again, and login using the steps above.
 
-Now it should look pretty similar, but with a welcome message that says something like **"Welcome to CS 159! Spring 2018 semester!"**
+Now it should look pretty similar, but with a welcome message that says something like **"Welcome to CS 159! Spring 2019 semester!"**
 
-![](https://raw.githubusercontent.com/jamesjweber/CS159_Spring2018/master/ImageResources/welcomeMessage.jpg)
+![](https://github.com/jamesjweber/CS159_Spring2018/blob/master/ImageResources/welcomeMessage.jpg?raw=true)
 
 ### Issues?
 
@@ -186,20 +186,20 @@ The first two commands we will work with are `cd` and `ls`. These are two very p
 
 `ls` is short for `listing` and will display (or list) the name of all files and folders in the folder you are currently in. So you can see below that if I go into my example CS159 folder on my computer and type `ls` it displays all the files and folders in that folder.
 
-![](https://raw.githubusercontent.com/jamesjweber/CS159_Spring2018/master/ImageResources/ls_cd_example.png)
+![](https://github.com/jamesjweber/CS159_Spring2018/blob/master/ImageResources/ls_cd_example.png?raw=true)
 
 Hopefully this picture illustrates the parallel between the `Graphical User Interface` of your computer, and the `Text-Based User Interface` of the `terminal`.
 
 ### CD (Change Directory)
 
-`cd` is short for `change directory`. This allows you to go from one folder to another. So for example, in the example above, I had to type `cd Desktop/CS159` to get from my `root folder` (the base folder in your computer that holds all other folders) to the `CS159` example folder.
+`cd` is short for `change directory`. This allows you to go from one folder to another. So for example, in the example above, I had to type `cd Desktop/CS159` to get from my `Desktop` folder to the `CS159` example folder.
 
 ### Putting it all together
 
 So, let's use these commands to get to your first lab file (`lab00.c`). 
 
 1. Type `ls` if you'd like to see all the folders in your `ITAP root directory`. You should see a folder called `CS159`. This is the folder we want to go into. 
-![](https://raw.githubusercontent.com/jamesjweber/CS159_Spring2018/master/ImageResources/listRootDirectory.png)
+![](https://github.com/jamesjweber/CS159_Spring2018/blob/master/ImageResources/listRootDirectory.png?raw=true)
 
 2. Type `cd CS159`. This shouldn't display anything. If you want to see what's in this folder, type `ls`.
 
@@ -213,13 +213,13 @@ So, let's use these commands to get to your first lab file (`lab00.c`).
 
 All in all your terminal should roughly look like this at the end:
 
-![](https://raw.githubusercontent.com/jamesjweber/CS159_Spring2018/master/ImageResources/allCommandsLab00.png)
+![](https://github.com/jamesjweber/CS159_Spring2018/blob/master/ImageResources/allCommandsLab00.png?raw=true)
 
 ### Power moves only!
 
 Obviously navigating through your folders like this is really annoying and tedious, so here's some power moves to make life a little easier.
 
-- You can `cd` through multiple folder, so instead of doing a single `cd` command at each folder level (i.e `cd CS159`, ``cd labs`, `cd lab00`), you can put all of the folders in one line like this: `cd CS159/labs/lab00`
+- You can `cd` through multiple folder, so instead of doing a single `cd` command at each folder level (i.e `cd CS159`, `cd labs`, `cd lab00`), you can put all of the folders in one line like this: `cd CS159/labs/lab00`
 
 - Now that's still a lot of typing, you can save yourself time by typing in part of the name and pressing `tab`, it will autocomplete the folder name for. For example, you can type `cd CS` the press `tab` and it will autocomplete to `cd CS159/` for you!
 
@@ -235,7 +235,7 @@ Obviously navigating through your folders like this is really annoying and tedio
 
 So now that you are in the `lab00` folder, we need to edit the file. To enter a file, type `vi lab00.c`. `vi` is a text editor (similar to word or notepad), but it does not have a `graphical` interface (i.e. you must use a keyboard to interact with it, your mouse won't do much). This is the official way to edit your files for this course. Later on I'll talk about alternatives, but for now we'll stick with `vi`. Once you open the file, it should look like this:
 
-![](https://raw.githubusercontent.com/jamesjweber/CS159_Spring2018/master/ImageResources/lab00.png)
+![](https://github.com/jamesjweber/CS159_Spring2018/blob/master/ImageResources/lab00.png?raw=true)
 
 This is the basic structure of all C programs, you aren't expected to undestand it all, but you should be able to see that it prints out `Welcome to CS 159!`
 
@@ -251,7 +251,7 @@ When you try to scroll, it doesn't scroll the file, but it scrolls back to the t
 
 When you type, you might notice that you can't put text into the file. This is because you are in `command` mode. In this mode you can only `read` text from the file, but you cannot `write to it`. In order to `edit` the file, you must go into `insert` mode. To do this press `esc`, then press `i`. The bottom of your screen should change and say `-- INSERT --`. It should look something like this:
 
-![](https://raw.githubusercontent.com/jamesjweber/CS159_Spring2018/master/ImageResources/insertMode.png)
+![](https://github.com/jamesjweber/CS159_Spring2018/blob/master/ImageResources/insertMode.png?raw=true)
 
 Now if you type, text will be entered wherever your `cursor (█)` is. Text can be deleted using `backspace`.
 
@@ -263,7 +263,7 @@ To exit, we must get *out* of `insert` mode and get back in `command` mode. To d
 
 Now that we are in command mode type `:wq` this should show at the bottom of the screen in the `command line` as shown here:
 
-![](https://raw.githubusercontent.com/jamesjweber/CS159_Spring2018/master/ImageResources/writeQuitCommand.png)
+![](https://github.com/jamesjweber/CS159_Spring2018/blob/master/ImageResources/writeQuitCommand.png?raw=true)
 
 #### What this command means
 
@@ -281,13 +281,13 @@ Compiling basically just takes your program, written in `C` and converts it to `
 
 In the `command line` (i.e not in the `lab00.c` file), enter the command: `gcc lab00.c`. `GCC (GNU C Compiler)` will compile your file and output a file that your computer can use called `a.out`. You can see this file if you use the `ls` command. `a.out` is an arbitrary file name that the compiler gives the `executable file`. It's just called that cause it's really short and easy to type.
 
-![](https://raw.githubusercontent.com/jamesjweber/CS159_Spring2018/master/ImageResources/compiledFile.png)
+![](https://github.com/jamesjweber/CS159_Spring2018/blob/master/ImageResources/compiledFile.png?raw=true)
 
 ### Executing your program
 
 Once the `a.out` file has been generate simply type `a.out` to run your program. For this file, it should output `Welcome to CS 159!` to the terminal.
 
-![](https://raw.githubusercontent.com/jamesjweber/CS159_Spring2018/master/ImageResources/fileRun.png)
+![](https://github.com/jamesjweber/CS159_Spring2018/blob/master/ImageResources/fileRun.png?raw=true)
 
 ### Submitting Your Code
 
@@ -307,17 +307,17 @@ This is *by far* the most important part of the lab. Submitting your code is the
 
 Enter the `submit` command from the same directory as your `lab00.c`. You should see this prompt appear:
 
-![](https://raw.githubusercontent.com/jamesjweber/CS159_Spring2018/master/ImageResources/submit_1.jpg)
+![](https://github.com/jamesjweber/CS159_Spring2018/blob/master/ImageResources/submit_1.jpg?raw=true)
 
 Type the name of the file you wish to submit (i.e. `lab00.c`). The file name **must match the expected file name** for it to sumbit properly. 
 
 Type `lab00.c` and press enter. It will ask you if you wish to continue, as part of an academic integrity acknowlegement, just type `Y` to continue. Once you do this it should say something like `lab00.c was submitted by yourPurdueUsername`
 
-![](https://raw.githubusercontent.com/jamesjweber/CS159_Spring2018/master/ImageResources/submit_2.png)
+![](https://github.com/jamesjweber/CS159_Spring2018/blob/master/ImageResources/submit_2.png?raw=true)
 
 You should also get a confirmation email that your file was submitted.
 
-![](https://raw.githubusercontent.com/jamesjweber/CS159_Spring2018/master/ImageResources/emailConfirmation.png)
+![](https://github.com/jamesjweber/CS159_Spring2018/blob/master/ImageResources/emailConfirmation.png?raw=true)
 
 #### Things to check
 
@@ -329,4 +329,4 @@ You should also get a confirmation email that your file was submitted.
 
 Once you've confirmed your submission with me, all you have to do is take the quiz and you are done.
 
-Note: Depending on which professors section I'm TAing for, you may not be able to take the quiz until the end, or you may need a password. At the time of writing this, I do not know which professor I'm working for, and therefore can't tell you when the quiz will be. Just ask me in lab, I will know by then!
+Note: For future labs you may not be able to take the quiz until the end of the lab.

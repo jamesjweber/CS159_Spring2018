@@ -69,7 +69,7 @@ A function declaration can be shown in this generic form.
 > 
 > **Parameters** - inType optVarName, inType2 optVarName2, ...
 > 
-> **Function Signature** - simpleFunction(<inType> <optVarName>, <inType2> <optVarName2>, ...)
+> **Function Signature** - simpleFunction(\<inType\> \<optVarName\>, \<inType2\> \<optVarName2\>, ...)
 
 For a more concrete example, a simple declaration for a function that takes and `int` and returns an `int` would look like this:
 
@@ -88,7 +88,7 @@ int simpleFunction(int <optVarName>);
 > 
 > **Parameters** - int optVarName
 > 
-> **Function Signature** - simpleFunction(int <optVarName>)
+> **Function Signature** - simpleFunction(int \<optVarName\>)
 
 > Notice that the function ***declaration*** does not contain any functionality, and also _ends in a semicolon_.
 
@@ -143,7 +143,9 @@ int main() {
    
    // main
    
-   int simpleFunction(int inputVar) { return inputVar++; }
+   int simpleFunction(int inputVar) { 
+   	return inputVar + 1; 
+   }
    ```
 	> However, I'd recommend just keeping the variable name in the declaration
 	
@@ -152,7 +154,9 @@ int main() {
    
    // main
    
-   int simpleFunction(int inputVar) { return inputVar++; }
+   int simpleFunction(int inputVar) { 
+   	return inputVar + 1; 
+   }
    ```
   
 2. A variable in a function with the same name as a variable in `main` is a completely different variable, i.e. they **DO NOT** affect each other. For example:
@@ -186,7 +190,7 @@ int main() {
    
    > If this seems complicated to you, you can always give different names to the function's variables, so you *know* they are different.
    
-  ```c
+   ```c
    void changeX(int localX);
    
    int main(void) {
